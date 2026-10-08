@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 rust-version = "1.91"
 license = "MIT"
-description = "Image generation across OpenRouter/OpenAI/xAI/FAL/DeepInfra via env-keyed provider probe. Port of hermes' image_gen plugins."
+description = "Image generation across OpenRouter/OpenAI/xAI/FAL/DeepInfra via env-keyed provider probe."
 
 [[bin]]
 name = "gray-imagegen"

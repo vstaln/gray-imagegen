@@ -1,7 +1,7 @@
 //! gray-imagegen — image generation across five env-keyed providers.
 //!
-//! Port of hermes' image_gen plugins (openrouter / openai / xai / fal /
-//! deepinfra). One `image_gen` tool: {prompt, provider?:"auto", model?,
+//! Five providers — openrouter / openai / xai / fal / deepinfra — behind one
+//! `image_gen` tool: {prompt, provider?:"auto", model?,
 //! size?:"1024x1024", out?:"./image-<ts>.png"}. With `provider:"auto"` the
 //! first configured backend wins; every key is read from the environment and a
 //! missing key is a clear tool error naming the variable.

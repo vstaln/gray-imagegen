@@ -1,6 +1,16 @@
-# gray-imagegen
+<p align="center">
+  <img src="assets/gray-logo.svg" alt="gray" width="96">
+</p>
+<h1 align="center">gray-imagegen</h1>
+<p align="center">Image generation across five providers, auto-selected by whichever API key is set.</p>
+<p align="center">
+  <a href="https://github.com/vstaln/gray-imagegen/blob/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
+  <img alt="gray plugin" src="https://img.shields.io/badge/gray-plugin-7aa2f7.svg">
+  <img alt="rust" src="https://img.shields.io/badge/built%20with-rust-orange.svg">
+</p>
 
-Image generation across OpenRouter / OpenAI / xAI / FAL / DeepInfra via env-keyed provider probe. Port of hermes' image_gen plugins.
+Image generation across OpenRouter / OpenAI / xAI / FAL / DeepInfra, via an
+env-keyed provider probe.
 
 A sidecar plugin for [gray](https://github.com/vstaln/gray).
 
@@ -38,3 +48,8 @@ cargo test
 gray account check      # entry point + manifest handshake
 gray account publish    # check → build → release → publish to the gray registry
 ```
+
+---
+
+Part of the [gray](https://github.com/vstaln/gray) plugin ecosystem —
+the open-source AI agent harness. <https://gray.alignment.id>
