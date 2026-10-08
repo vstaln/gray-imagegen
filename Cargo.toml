@@ -1,0 +1,17 @@
+[package]
+name = "gray-imagegen"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.91"
+license = "MIT"
+description = "Image generation across OpenRouter/OpenAI/xAI/FAL/DeepInfra via env-keyed provider probe. Port of hermes' image_gen plugins."
+
+[[bin]]
+name = "gray-imagegen"
+path = "src/main.rs"
+
+[dependencies]
+serde_json = "1"
+
+[profile.release]
+strip = true
