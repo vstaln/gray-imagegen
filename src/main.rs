@@ -320,6 +320,7 @@ fn out_path(arg: Option<&str>, session: &Value) -> PathBuf {
     }
     let path = if let Some(rest) = name.strip_prefix("~/") {
         std::env::var_os("HOME")
+            .or_else(|| std::env::var_os("USERPROFILE"))
             .map(|h| PathBuf::from(h).join(rest))
             .unwrap_or_else(|| PathBuf::from(&name))
     } else {
