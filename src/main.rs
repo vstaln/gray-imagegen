@@ -38,6 +38,7 @@ fn manifest() -> Value {
             }
         }],
         "commands": ["/imagegen"],
+        "command_descriptions": {"/imagegen": "show image providers that have keys set"},
     })
 }
 
